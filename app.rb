@@ -21,6 +21,12 @@ class App < Sinatra::Base
   end
 
   get "/say/:word1/:word2/:word3/:word4/:word5" do
-    
+    @arr = []
+    @arr << params[:word1]
+    @arr << params[:word2]
+    @arr << params[:word3]
+    @arr << params[:word4]
+    @arr << params[:word5]
+    "#{@arr.join(' ')}"
   end
 end

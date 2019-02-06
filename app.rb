@@ -40,6 +40,6 @@ class App < Sinatra::Base
     elsif operation == "subtract"
     elsif operation == "multiply"
     elsif operation == "divide"
-    end 
+    end
   end
 end

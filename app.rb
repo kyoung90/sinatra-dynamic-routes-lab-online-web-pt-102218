@@ -29,4 +29,8 @@ class App < Sinatra::Base
     @arr << params[:word5]
     "#{@arr.join(' ')}"
   end
+
+  get "/:operation/:number1/:number2" do 
+
+  end 
 end

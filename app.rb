@@ -31,7 +31,7 @@ class App < Sinatra::Base
   end
 
 # (add, subtract, multiply or divide)
-  get "/:operation/:number1/:number2" do 
+  get "/:operation/:number1/:number2" do
 
   end
 end

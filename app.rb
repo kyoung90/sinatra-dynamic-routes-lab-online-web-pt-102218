@@ -17,7 +17,7 @@ class App < Sinatra::Base
     @phrase = params[:phrase]
     str = ""
     @number.times do
-      str += "#{@phrase}\n\r"
+      str += "#{@phrase}"
     end
     str
   end
@@ -29,7 +29,7 @@ class App < Sinatra::Base
     @arr << params[:word3]
     @arr << params[:word4]
     @arr << params[:word5]
-    "#{@arr.join(' ')}"
+    "#{@arr.join(' ')}."
   end
 
 # (add, subtract, multiply or divide)
